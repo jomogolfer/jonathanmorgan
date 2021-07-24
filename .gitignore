@@ -1,0 +1,45 @@
+# ignore everything in the root except the "wp-content" directory.
+# test comment
+!wp-content/
+
+#Ignore files I do not want on the remote site
+.DS_Store
+.htaccess
+license.txt
+xmlrpc.php
+wp-activate.php
+wp-comments-post.php
+wp-config.php
+wp-config-LOCAL.php
+wp-config-REMOTE.php
+wp-links-opml.php
+wp-login.php
+wp-login-REMOTE.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-config-sample.php
+wp-settings.php
+wp-trackback.php
+
+
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins", "plugins", "themes" directory
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/twentyfifteen-child/
+!wp-content/themes/twentyfifteen-child/enlighter
+
+
+
+# ignore these plugins
+wp-content/plugins/hello.php
+
+# ignore specific themes
+
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite

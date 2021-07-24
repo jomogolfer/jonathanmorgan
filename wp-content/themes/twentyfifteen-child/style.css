@@ -1,0 +1,34 @@
+/*
+ Theme Name:   Twentytfifteen Child
+ Version: 1.0;
+ Theme URI:    https://jonathanmorgan.io/wp-content/themes/twentyfifteen-child
+ Description:  Autho Child Theme
+ Author:       Jonathan Morgan
+ Author URI:   http://jonathanmorgan.io
+ Template:     twentyfifteen
+ Description:  For sexy boys
+*/
+
+article,
+article h2.entry-title a,
+footer.entry-footer a,
+span.posted-on,
+span.comments-link,
+span.edit-link {
+
+	color: #ffffff;
+}
+
+.entry-title, .widecolumn h2 {
+    font-size: 3.9rem;
+    line-height: 1.2308;
+    margin-bottom: 0.231em;
+}
+
+.entry-content, .entry-summary {
+    padding: 0 10% 5%;
+}
+
+.hentry {
+    padding-top: 4.333%;
+}

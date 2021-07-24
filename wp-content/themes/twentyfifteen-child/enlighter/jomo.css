@@ -1,0 +1,281 @@
+/*@BASETHEME:monokai*/
+
+.enlighter-t-wpcustom{
+	background-color: #272822;
+	font-size: 0.9em;
+}
+.enlighter-t-wpcustom .enlighter-toolbar{
+	top: 10px;
+	right: 10px;
+}
+.enlighter-t-wpcustom .enlighter-btn{
+	background-image: none;
+	background-color: #414339;
+	color: #f8f8f2;
+	font-size: 1em;
+	padding: 2px 8px 2px 8px;
+	margin: 0 5px 0 5px;
+	border: solid 1px #1e1f1c;
+	font-family: "Open Sans",Arial,Verdana,sans-serif;
+}
+.enlighter-t-wpcustom .enlighter-btn:hover{
+	background-color: #4e5145;
+}
+.enlighter-t-wpcustom .enlighter-toolbar .enlighter-btn-raw{
+	background-image: none;
+}
+.enlighter-t-wpcustom .enlighter-toolbar .enlighter-btn-raw:after{
+	content: 'Raw';
+}
+.enlighter-t-wpcustom .enlighter-toolbar .enlighter-btn-copy{
+	background-image: none;
+}
+.enlighter-t-wpcustom .enlighter-toolbar .enlighter-btn-copy:after{
+	content: 'Copy';
+}
+.enlighter-t-wpcustom .enlighter-toolbar .enlighter-btn-window{
+	background-image: none;
+}
+.enlighter-t-wpcustom .enlighter-toolbar .enlighter-btn-window:after{
+	content: 'Extern';
+}
+.enlighter-t-wpcustom .enlighter-toolbar .enlighter-btn-website{
+	background-image: none;
+}
+.enlighter-t-wpcustom .enlighter-toolbar .enlighter-btn-website:after{
+	content: 'EnlighterJS';
+}
+.enlighter-t-wpcustom.enlighter-hover div.enlighter>div:hover{
+	background-color: #75715e;
+}
+.enlighter-t-wpcustom .enlighter-raw{
+	font-size: 1.25em;
+	color: #f8f8f2;
+	line-height: 1.85em;
+	padding: 4px 5px 4px 55px;
+}
+.enlighter-t-wpcustom div.enlighter>div{
+	padding: 1px 5px 1px 14px;
+	line-height: 1.6em;
+}
+.enlighter-t-wpcustom div.enlighter>div:FIRST-CHILD{
+	padding-top: 5px;
+}
+.enlighter-t-wpcustom div.enlighter>div:LAST-CHILD{
+	padding-bottom: 5px;
+}
+.enlighter-t-wpcustom div.enlighter>div:AFTER{
+	content: ' ';
+}
+.enlighter-t-wpcustom div.enlighter>div.enlighter-special{
+	background-color: #414339;
+}
+.enlighter-t-wpcustom.enlighter-linenumbers div.enlighter>div::before{
+	font-size: 1em;
+	color: grey;
+}
+.enlighter-t-wpcustom .enlighter span{
+	font-size: 1.25em;
+}
+.enlighter-t-wpcustom .enlighter-text{
+	color: #f8f8f2;
+}
+.enlighter-t-wpcustom .enlighter-c0{
+	color: #75715e;
+}
+.enlighter-t-wpcustom .enlighter-c1{
+	color: #75715e;
+}
+.enlighter-t-wpcustom .enlighter-c2{
+	color: #75715e;
+}
+.enlighter-t-wpcustom .enlighter-c9{
+	color: #75715e;
+}
+.enlighter-t-wpcustom .enlighter-k0{
+	color: #f92672;
+}
+.enlighter-t-wpcustom .enlighter-k1{
+	color: #f92672;
+}
+.enlighter-t-wpcustom .enlighter-k2{
+	color: #f92672;
+}
+.enlighter-t-wpcustom .enlighter-k3{
+	color: #f92672;
+}
+.enlighter-t-wpcustom .enlighter-k4{
+	color: #f92672;
+}
+.enlighter-t-wpcustom .enlighter-k5{
+	color: #f92672;
+}
+.enlighter-t-wpcustom .enlighter-k6{
+	color: #f92672;
+}
+.enlighter-t-wpcustom .enlighter-k7{
+	color: #f8f8f2;
+}
+.enlighter-t-wpcustom .enlighter-k8{
+	color: #f92672;
+}
+.enlighter-t-wpcustom .enlighter-k9{
+	color: #fd971f;
+}
+.enlighter-t-wpcustom .enlighter-k10{
+	color: #f92672;
+}
+.enlighter-t-wpcustom .enlighter-k11{
+	color: #75715e;
+}
+.enlighter-t-wpcustom .enlighter-e0{
+	color: #ae81ff;
+}
+.enlighter-t-wpcustom .enlighter-e1{
+	color: #ae81ff;
+}
+.enlighter-t-wpcustom .enlighter-e2{
+	color: #ae81ff;
+}
+.enlighter-t-wpcustom .enlighter-e3{
+	color: #ae81ff;
+}
+.enlighter-t-wpcustom .enlighter-e4{
+	color: #ae81ff;
+}
+.enlighter-t-wpcustom .enlighter-s0{
+	color: #e6db74;
+}
+.enlighter-t-wpcustom .enlighter-s1{
+	color: #e6db74;
+}
+.enlighter-t-wpcustom .enlighter-s2{
+	color: #e6db74;
+}
+.enlighter-t-wpcustom .enlighter-s3{
+	color: #e6db74;
+}
+.enlighter-t-wpcustom .enlighter-s4{
+	color: #e6db74;
+	font-weight: 700;
+}
+.enlighter-t-wpcustom .enlighter-s5{
+	color: #e6db74;
+	font-style: italic;
+}
+.enlighter-t-wpcustom .enlighter-n0{
+	color: #ae81ff;
+}
+.enlighter-t-wpcustom .enlighter-n1{
+	color: #ae81ff;
+}
+.enlighter-t-wpcustom .enlighter-n2{
+	color: #ae81ff;
+}
+.enlighter-t-wpcustom .enlighter-n3{
+	color: #ae81ff;
+}
+.enlighter-t-wpcustom .enlighter-n4{
+	color: #ae81ff;
+}
+.enlighter-t-wpcustom .enlighter-n5{
+	color: #ae81ff;
+}
+.enlighter-t-wpcustom .enlighter-m0{
+	color: #66d9ef;
+}
+.enlighter-t-wpcustom .enlighter-m1{
+	color: #66d9ef;
+}
+.enlighter-t-wpcustom .enlighter-m2{
+	color: #66d9ef;
+}
+.enlighter-t-wpcustom .enlighter-m3{
+	color: #66d9ef;
+}
+.enlighter-t-wpcustom .enlighter-g0{
+	color: #f8f8f2;
+	font-weight: 700;
+}
+.enlighter-t-wpcustom .enlighter-g1{
+	color: #f92672;
+	font-weight: 700;
+}
+.enlighter-t-wpcustom .enlighter-t0{
+	color: #f8f8f2;
+}
+.enlighter-t-wpcustom .enlighter-t1{
+	color: #a6e22e;
+}
+.enlighter-t-wpcustom .enlighter-t2{
+	color: #a6e22e;
+}
+.enlighter-t-wpcustom .enlighter-t3{
+	color: #e6db74;
+}
+.enlighter-t-wpcustom .enlighter-t4{
+	color: #e6db74;
+}
+.enlighter-t-wpcustom .enlighter-t5{
+	color: #a6e22e;
+}
+.enlighter-t-wpcustom .enlighter-t6{
+	color: #f92672;
+}
+.enlighter-t-wpcustom .enlighter-t7{
+	color: #f92672;
+}
+.enlighter-t-wpcustom .enlighter-t8{
+	color: #75715e;
+}
+.enlighter-t-wpcustom .enlighter-x1{
+	color: #f92672;
+}
+.enlighter-t-wpcustom .enlighter-x2{
+	color: #a6e22e;
+}
+.enlighter-t-wpcustom .enlighter-x10{
+	color: #a6e22e;
+}
+.enlighter-t-wpcustom .enlighter-x11{
+	color: #a6e22e;
+}
+.enlighter-t-wpcustom .enlighter-x12{
+	color: #66d9ef;
+	font-style: italic;
+}
+.enlighter-t-wpcustom .enlighter-x13{
+	color: #f92672;
+}
+.enlighter-t-wpcustom .enlighter-x14{
+	color: #ae81ff;
+}
+.enlighter-t-wpcustom .enlighter-x15{
+	color: #a6e22e;
+}
+.enlighter-t-wpcustom.enlighter-v-codegroup .enlighter-codegroup-switch{
+	background-color: #414339;
+	padding: 10px 10px 0 30px;
+}
+.enlighter-t-wpcustom.enlighter-v-codegroup .enlighter-codegroup-switch .enlighter-btn{
+	background-image: none;
+	background-color: #414339;
+	color: #f8f8f2;
+	font-size: 1.15em;
+	padding: 2px 8px 2px 8px;
+	margin: 0 10px 0 10px;
+	border: none;
+	line-height: 2.1em;
+	border-radius: 0;
+	font-style: italic;
+}
+.enlighter-t-wpcustom.enlighter-v-codegroup .enlighter-codegroup-switch .enlighter-btn.enlighter-active{
+	background-color: #272822;
+	color: #f8f8f2;
+	font-weight: 700;
+	font-style: normal;
+}
+.enlighter-t-wpcustom div.enlighter>div.enlighter-special:hover{
+}
+.enlighter-t-wpcustom .enlighter-x16{
+}

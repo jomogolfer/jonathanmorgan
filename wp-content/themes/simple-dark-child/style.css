@@ -1,0 +1,29 @@
+/*
+ Theme Name:   Simple Dark Child
+ Version: 1.0;
+ Theme URI:    http://jonathanmorgan.io/wp-content/themes/simple-dark-child
+ Description:  Simple Dark Child Theme
+ Author:       Jonathan Morgan
+ Author URI:   http://jonathanmorgan.io
+ Template:     simple-dark
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  simple-dark
+*/
+
+body.home, 
+h1.entry-title,
+h1::before,
+h1.site-title a, 
+h2,
+h2::before,
+h2.entry-title a, 
+p,
+body a {
+	color: #cfcfcf;
+}
+
+
+ 
